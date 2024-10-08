@@ -1,0 +1,92 @@
+* {
+    margin: 0; /*mandei só para vc vê q eu nao conseguiii, la vida eres mui triste*/
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 1vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main {
+    columns: 2;
+}
+
+.logo img,
+.fice img {
+    width: 60vmin;
+    height: auto;
+}
+
+.container {
+    margin-left: 50px;
+    display: flex;
+    gap: 150px;
+}
+
+.main-title {
+    margin: 80px;
+}
+
+.main-title h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.authors {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-weight: 1.5;
+}
+
+.left-column,
+.right-column {
+    width: 45;
+}
+
+.left-column h3,
+.right-column h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.left-column p,
+.right-column p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 2vh;
+}
+
+p.email {
+    color: rgb(63, 124, 216);
+}
+
+
+.imagens{
+    columns: 2;
+}
+
+.robo img,
+.arduino img{  
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
